@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 120">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&amp;display=swap');
+      .logo-text {
+        font-family: 'Playfair Display', serif;
+        font-weight: 800;
+        font-size: 85px;
+        fill: #e31e24;
+        letter-spacing: -2px;
+      }
+    </style>
+  </defs>
+  <text x="10" y="90" class="logo-text">digitalCraft</text>
+</svg>
