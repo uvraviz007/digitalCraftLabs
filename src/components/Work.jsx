@@ -19,7 +19,12 @@ const WorkCard = ({ project, index }) => {
             }}
         >
             <div className="card-img-wrapper">
-                <img src={project.image} alt={project.title} />
+                <img 
+                    src={project.image} 
+                    alt={project.title} 
+                    loading="lazy" 
+                    decoding="async"
+                />
                 <div className="project-overlay">
                     <span className="overlay-btn">
                         View Project 
